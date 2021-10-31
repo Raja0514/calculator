@@ -22,7 +22,7 @@ ele.innerHTML=`
 function calc1() {
 var n1=parseFloat(document.getElementById('n1').value)
 var n2=parseFloat(document.getElementById('n2').value)
-if(n1===!Number){
+if(n1===!Number&&n2===!Number){
     error.textContent = "I expect an e-mail, darling!";
 }else{
 document.getElementById('result').value=n1+n2
